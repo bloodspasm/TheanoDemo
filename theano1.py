@@ -42,3 +42,4 @@ diff_squared = diff**2
 f = theano.function([a,b],[diff,abs_diff,diff_squared])
 
 print f(np.ones((2,2)),np.arange(4).reshape((2, 2)))
+print '#################################'
