@@ -3,7 +3,7 @@ import numpy as np
 import theano.tensor as T
 from theano import function
 
-x = T.dscalar('x');
+x = T.dscalar('x');  # 向量 T.scalar(dtype=float64)
 y = T.dscalar('y');
 z = x + y;
 f = function([x, y], z)
@@ -18,7 +18,7 @@ print pp(z)
 
 # 做矩阵的运算
 
-x = T.dmatrix('x')  # float 64位
+x = T.dmatrix('x')  # 矩阵 float 64位
 y = T.dmatrix('y')
 z = x + y  # T.dot(x,y) 乘法
 f = function([x, y], z)

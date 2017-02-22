@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc59f5c9-4ca2-4cde-867f-685fdf94b33c" name="Default" comment="scalar">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theano3.py" />
+    <list default="true" id="bc59f5c9-4ca2-4cde-867f-685fdf94b33c" name="Default" comment="激励函数">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theano1.py" afterPath="$PROJECT_DIR$/theano1.py" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,36 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="theano1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="theano1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/theano1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theano2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theano2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
-              <folding>
-                <element signature="e#24#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theano3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/theano3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +44,30 @@
       <file leaf-file-name="basic.py" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Python/2.7/site-packages/theano/tensor/basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="815" column="4" selection-start-line="815" selection-start-column="4" selection-end-line="815" selection-end-column="4" />
+            <state relative-caret-position="178">
+              <caret line="883" column="0" selection-start-line="883" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theano2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theano2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theano3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theano3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -91,9 +91,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/theano1.py" />
         <option value="$PROJECT_DIR$/theano2.py" />
         <option value="$PROJECT_DIR$/theano3.py" />
+        <option value="$PROJECT_DIR$/theano1.py" />
       </list>
     </option>
   </component>
@@ -104,8 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="y" value="23" />
+    <option name="x" value="95" />
+    <option name="y" value="83" />
     <option name="width" value="1387" />
     <option name="height" value="837" />
   </component>
@@ -467,14 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1487744353966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="激励函数">
+      <created>1487746330252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487746330252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="23" width="1387" height="837" extended-state="0" />
+    <frame x="95" y="83" width="1387" height="837" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,7 +517,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="function" />
     <MESSAGE value="scalar" />
-    <option name="LAST_COMMIT_MESSAGE" value="scalar" />
+    <MESSAGE value="激励函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="激励函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -551,10 +559,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theano1.py">
+    <entry file="file://$PROJECT_DIR$/theano3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/theano/tensor/type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theano2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="39" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>
@@ -563,27 +587,19 @@
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/theano/tensor/basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="815" column="4" selection-start-line="815" selection-start-column="4" selection-end-line="815" selection-end-column="4" />
+        <state relative-caret-position="178">
+          <caret line="883" column="0" selection-start-line="883" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theano2.py">
+    <entry file="file://$PROJECT_DIR$/theano1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theano3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
