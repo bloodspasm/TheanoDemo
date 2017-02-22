@@ -34,7 +34,7 @@ x = T.dmatrix('x')
 s = 1/(1+T.exp(-x)) # np.exp() logsistic or step
 logsistic = theano.function([x],s)
 print logsistic([[0,1],[-2,-3]])
-
+print '#################################'
 a,b = T.dmatrices('a','b')
 diff = a - b
 abs_diff = abs(diff)
